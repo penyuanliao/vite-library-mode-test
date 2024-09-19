@@ -1,0 +1,4 @@
+# pnpm-workspace.yaml
+packages:
+  - 'packages/*'  # 指定 packages 目錄下的所有子目錄
+  - 'apps/*'      # 指定 apps 目錄下的所有子目錄
