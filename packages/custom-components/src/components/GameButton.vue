@@ -3,8 +3,8 @@
 </template>
 
 <script lang="ts">
-
-export default {
+import { defineComponent } from 'vue'
+export default defineComponent({
     name: 'GameButton',
     props: {
         message: String
@@ -13,6 +13,5 @@ export default {
         console.log(`[x] Message: ${props.message}`);
         return props;
     }
-}
-
+})
 </script>

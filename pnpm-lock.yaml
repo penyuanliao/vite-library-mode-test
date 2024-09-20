@@ -72,7 +72,7 @@ importers:
         specifier: ^7.3.1
         version: 7.4.5(vite@5.4.4)(vue@3.5.4)
       vue-tsc:
-        specifier: ^2.0.21
+        specifier: ^2.1.6
         version: 2.1.6(typescript@5.4.5)
 
   packages/custom-components:
@@ -1231,8 +1231,8 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.4.4(@types/node@22.5.5)
-      vue: 3.5.4(typescript@5.6.2)
+      vite: 5.4.4(@types/node@20.16.5)
+      vue: 3.5.4(typescript@5.4.5)
     dev: true
 
   /@volar/language-core@2.4.4:
@@ -1468,7 +1468,7 @@ packages:
     dependencies:
       '@vue/compiler-ssr': 3.5.4
       '@vue/shared': 3.5.4
-      vue: 3.5.4(typescript@5.6.2)
+      vue: 3.5.4(typescript@5.4.5)
 
   /@vue/shared@3.5.4:
     resolution: {integrity: sha512-L2MCDD8l7yC62Te5UUyPVpmexhL9ipVnYRw9CsWfm/BGRL5FwDX4a25bcJ/OJSD3+Hx+k/a8LDKcG2AFdJV3BA==}
@@ -3314,6 +3314,7 @@ packages:
       '@vue/server-renderer': 3.5.4(vue@3.5.4)
       '@vue/shared': 3.5.4
       typescript: 5.6.2
+    dev: false
 
   /which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}

@@ -1,18 +1,18 @@
 {
   "name": "@mkt/custom-components",
   "private": true,
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/custom-components.umd.cjs",
+  "main": "./dist/custom-components.js",
   "module": "./dist/custom-components.js",
   "exports": {
     ".": {
       "import": "./dist/custom-components.js",
-      "require": "./dist/custom-components.umd.cjs",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/custom-components.js",
+      "types": "./types/index.d.ts"
     }
   },
   "scripts": {
