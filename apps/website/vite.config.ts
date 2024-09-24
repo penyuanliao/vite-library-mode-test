@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
-import { proxy } from './proxies/proxy'
+import { proxy } from './src/proxies/proxy'
 
 // https://vitejs.dev/config/
 export default defineConfig({

@@ -6,7 +6,7 @@
     "cypress.config.*",
     "nightwatch.conf.*",
     "playwright.config.*",
-    "proxies/proxy.*"
+    "src/proxies/proxy.*"
   ],
   "compilerOptions": {
     "composite": true,
