@@ -1,4 +1,4 @@
-import mitt, { type Emitter } from "mitt";
+import mitt, { type Emitter } from 'mitt';
 
 type ImageLoaderEvents = {
     progress: number; // 進度
@@ -49,13 +49,19 @@ export class ImageLoader {
         }
     }
 
-  // 綁定事件
-  on<K extends keyof ImageLoaderEvents>(event: K, listener: (payload: ImageLoaderEvents[K]) => void) {
-    this.emitter.on(event, listener);
-  }
+    // 綁定事件
+    on<K extends keyof ImageLoaderEvents>(
+        event: K,
+        listener: (payload: ImageLoaderEvents[K]) => void
+    ) {
+        this.emitter.on(event, listener);
+    }
 
-  // 解除事件綁定
-  off<K extends keyof ImageLoaderEvents>(event: K, listener: (payload: ImageLoaderEvents[K]) => void) {
-    this.emitter.off(event, listener);
-  }
+    // 解除事件綁定
+    off<K extends keyof ImageLoaderEvents>(
+        event: K,
+        listener: (payload: ImageLoaderEvents[K]) => void
+    ) {
+        this.emitter.off(event, listener);
+    }
 }
